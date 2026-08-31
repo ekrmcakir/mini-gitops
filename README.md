@@ -1,5 +1,10 @@
 # 🚀 Mini-GitOps Controller
 
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Docker](https://img.shields.io/badge/Docker-Engine-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A lightweight, declarative GitOps continuous delivery engine built with Python and FastAPI. It continuously reconciles container runtime state against Git-defined manifests with built-in HMAC authentication, state diffing, readiness probing, atomic swapping, and automated rollbacks.
 
 ---
