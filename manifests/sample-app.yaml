@@ -1,0 +1,12 @@
+app_name: "demo-web-service"
+image: "nginx"
+tag: "1.25-alpine"
+ports:
+  - container_port: 80
+    host_port: 8085
+    protocol: "tcp"
+env:
+  ENVIRONMENT: "production"
+  PORT: "80"
+healthcheck_path: "/"
+healthcheck_port: 8085
